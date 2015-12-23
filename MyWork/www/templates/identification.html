@@ -11,65 +11,59 @@
 		</ion-nav-buttons>
 	</ion-nav-bar>
 
-	<ion-content>
-		<div class="row row-wrap">
-			<div class="col col-30 identify-div-edit">
-				<img ng-src="img/identification/title.png" alt="Edit" class="identify-img-edit" />
-			</div>
-			<div class="col col-40 identify-div-title">
-				<span class="identify-span-title">资料填写</span>
-				<br/>
-				<span class="identify-span-titledetai">
-  					请按照提示填写本人真实资料
-  				</span>
-			</div>
-			<div class="col col-30 identify-div-address">
-				<span>(中国大陆地区)</span>
-			</div>
+	<ion-content scroll=false>
+		<div class="identify-title">
+			<img ng-src="img/identification/listhead.png" />
 		</div>
-		<div class="list">
-			<div class="item item-icon-right ">
-				<img ng-src="img/identification/user.png" class='identify-img-list' />
+		<div class="scroll list">
+			<div class="item item-icon-left item-icon-right identify-list-div">
+				<i class="icon"><img ng-src="img/identification/user.png" alt="user"/></i>
 				<span>姓名:</span>
-				<input type="text" placeholder="此昵称将用作展示，一旦注册成功将不能修改">
-				<i class="icon ion-ios-checkmark"></i>
+				<input type="text" placeholder="此昵称将用作展示，一旦注册成功将不能修改" ng-model="user.name">
+				<i class="icon second">
+					<img ng-src="img/identification/confirm.png" ng-if="user.name!=null && user.name!=''">
+					<img ng-src="img/identification/wrong.png" ng-if="user.name==null || user.name==''">
+				</i>
 			</div>
-			<div class="item item-icon-right ">
-				<img ng-src="img/identification/password.png" class='identify-img-list' />
+			<div class="item item-icon-left item-icon-right identify-list-div">
+				<i class="icon"><img ng-src="img/identification/password.png" alt="passport"/></i>
 				<span>身份证号:</span>
-				<input type="text" placeholder="请输入你准确的身份证号">
-				<i class="icon ion-ios-checkmark"></i>
+				<input type="text" placeholder="请输入你准确的身份证号" ng-model="user.passport">
+				<i class="icon second">
+					<img ng-src="img/identification/confirm.png" ng-if="user.passport!=null && user.passport!=''">
+					<img ng-src="img/identification/wrong.png" ng-if="user.passport==null || user.passport==''">
+				</i>
 			</div>
-			<div class="item">
-				<img ng-src="img/identification/phone.png" class='identify-img-list' />
+			<div class="item item-icon-left identify-list-div">
+				<i class="icon"><img ng-src="img/identification/phone.png"  alt="phone"/></i>
 				<span>联系方式:</span>
 				<input type="text" placeholder="手机或固话至少填写一个">
 			</div>
-			<div class="item">
-				<img ng-src="img/identification/address.png" class='identify-img-list' />
+			<div class="item item-icon-left identify-list-div">
+				<i class="icon"><img ng-src="img/identification/address.png" alt="address"/></i>
 				<span>联系地址:</span>
 				<input type="text" placeholder="补充详细地址(如门牌号/楼层号等)">
 			</div>
-		</div>
-		<div class="list scroll">
-			<a class="item">
-				<span>点击上传(证件)</span>
-				<span>身份证正面</span>
-				<img ng-src="img/identification/cardon.png" />
+			<a class="item identify-list-a">
+				<span class="first">点击上传（证件）</span>
+				<span class="second">身份证正面</span>
+				<img ng-src="img/identification/cardon.png" alt="照片"/>
 			</a>
-			<a class="item">
-				<span>点击上传(证件)</span>
-				<span>身份证背面</span>
-				<img ng-src="img/identification/cardoff.png" />
+			<a class="item identify-list-a">
+				<span class="first">点击上传（证件）</span>
+				<span class="second">身份证背面</span>
+				<img ng-src="img/identification/cardoff.png" alt="照片"/>
 			</a>
-			<a class="item">
-				<span>点击上传(证件)</span>
-				<span>手持身份证</span>
-				<img ng-src="img/identification/cardon.png" />
+			<a class="item identify-list-a">
+				<span class="first">点击上传（证件）</span>
+				<span class="second">手持身份证</span>
+				<img ng-src="img/identification/cardon.png" alt="照片"/>
 			</a>
 		</div>
-		<div>
-			<button class="button button-full button-positive">提交</button>
+		<div class="basicInfo-btn">
+			<a href="#"><img ng-src="img/identification/btn.png" alt="提交"/>
+				
+			</a>
 		</div>
 	</ion-content>
 </ion-view>

@@ -1,14 +1,18 @@
 .basicInfo-nav{
-	background-color: #387ef5;
+	background-color: #0191da;
 	color:white;
 }
-.basicInfo-item-border{
+.basicInfo-list-head{
 	border-bottom: 5px solid #999999;
 }
-.basicInfo-span-head{
+.basicInfo-list-head span{
 	margin-top: 10px;
 }
-.basicInfo-btn-exit{
+.basicInfo-list-head img{
+	width: 5rem;
+	vertical-align: middle;
+}
+.basicInfo-btn{
 	 margin: 0 10%;
 }
 

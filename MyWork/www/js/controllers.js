@@ -1,7 +1,7 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {})
-
+.controller('LoanAccountCtrl', function($scope) {})
+.controller('InverstmentAccountCtrl', function($scope) {})
 .controller('AccountCtrl', ['$scope','$state',function($scope,$state) {
 		$scope.GoBasicInfoPage=GoBasicInfoPage;
 		$scope.GoIdentifacationPage=GoIdentifacationPage;

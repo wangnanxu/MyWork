@@ -1,0 +1,76 @@
+.loanAccount-head{
+	
+}
+.loanAccount-head .bgimg{
+	position: absolute;
+    width: 100%;
+    height: 120px;
+    z-index: -1;
+}
+.loanAccount-head .first{
+	
+}
+.loanAccount-head .first img{
+	width: 2rem;
+}
+.loanAccount-head .second{
+	text-align: center;
+}
+.loanAccount-head .second img{
+	width: 5rem;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.loanAccount-head .second span{
+	display: block;
+    margin: 0 auto;
+    color: #ffffff;
+}
+.loanAccount-head .third{
+	text-align: right;
+}
+.loanAccount-head .third span{
+	color: #ffffff;
+    font-size: 0.8rem;
+}
+.loanAccount-process{
+	padding: 0px;
+}
+.loanAccount-process .col{
+	display: block;
+    padding: 5px 0px;
+    width: 100%;
+}
+.loanAccount-process .colborder{
+	padding-right:2px ;
+}
+.loanAccount-process a{
+	background-color:#5fbae7;
+	color:#FFFFFF;
+}
+.loanAccount-process a:hover{
+	background-color: #b3e5ff;
+	color:#FFFFFF;
+}
+.loanAccount-process .button-full{
+	margin-top: 2px;
+    margin-bottom: 2px;
+}
+.loanAccount-process img{
+	width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.loanAccount-total{
+	
+}
+.loanAccount-total a{
+	
+}
+.loanAccount-total img{
+	
+}
+.loanAccount-total span{
+	
+}
