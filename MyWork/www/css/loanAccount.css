@@ -39,7 +39,7 @@
 }
 .loanAccount-process .col{
 	display: block;
-    padding: 5px 0px;
+    padding: 5px 0px 2px 0px;
     width: 100%;
 }
 .loanAccount-process .colborder{
@@ -63,14 +63,131 @@
     vertical-align: middle;
 }
 .loanAccount-total{
-	background-color: #b3e5ff;
+	background-color: #5fbae7;
+    text-align: center;
+    height: 43px;
 }
 .loanAccount-total a{
-	
+	display: block;
+    padding-top: 9px;
 }
 .loanAccount-total img{
-	
+	width: 1.5rem;
+    vertical-align: bottom;
 }
 .loanAccount-total span{
+	color: #ffffff;
+    font-size: 1.1rem;
+}
+.loanAccount-money{
+	border-bottom: 8px solid #5fbae7;
+}
+.loanAccount-money .back{
+	height: 40px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.loanAccount-money .back span{
+	margin-left: 25px;
+    line-height: 35px;
+    color: #0000ff;
+}
+.loanAccount-money .noback{
+	 height: 40px;
+}
+.loanAccount-money .noback span{
+	margin-left: 25px;
+    line-height: 35px;
+    color:#EF473A;
+}
+.loanAccount-identify{
+	padding: 0px;
+}
+.loanAccount-identify .row{
+	margin: 0px;
+    padding: 0px;
+}
+.loanAccount-identify .col{
+	margin: 0px;
+    padding: 0px;
+}
+.loanAccount-identify .statusimg{
+	width:3rem;
+}
+.loanAccount-identify .title{
+	display: block;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.loanAccount-identify .title span{
 	
+	}
+.loanAccount-identify .statusspan{
+	font-size: 0.5rem;
+}
+.loanAccount-identify .btn{
+	padding-left: 10px;
+    font-size: 0.5rem;
+}
+.loanAccount-identify .status {
+	width: 0.8rem;
+	vertical-align: middle;
+}
+.loanAccount-identify .content{
+	color: #5fbae7;
+    font-size: 0.5rem;
+    margin-left: 10px;
+}
+.loanAccount-identify .identifybtn{
+	width: 100%;
+}
+.loanAccount-identify .identifybtn a{
+	background-color: #5fbae7;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+}
+.loanAccount-identify .identifybtn .button-full {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.loanAccount-identify .identifybtn img {
+    width: 2rem;
+    vertical-align: middle;
+}
+.loanAccount-btn{
+	    text-align: center;
+}
+.loanAccount-btn img{
+	display: block;
+    width: 5rem;
+    margin: 0 auto;
+}
+.loanAccount-btn span{
+    font-size: 0.8rem;
+    color: #999999;
+}
+.loanAccount-imgbtn{
+	
+}
+.loanAccount-imgbtn img{
+	    width: 10rem;
+}
+.loanAccount-state{
+	
+}
+.loanAccount-state .title{
+	background-color: #5fbae7;
+    text-align: center;
+    height: 43px;
+}
+.loanAccount-state .title a{
+	display: block;
+    padding-top: 9px;
+}
+.loanAccount-state .title span{
+	color: #ffffff;
+    font-size: 1.1rem;
+}
+.loanAccount-state .title img{
+	width: 2rem;
+    vertical-align:bottom;
 }

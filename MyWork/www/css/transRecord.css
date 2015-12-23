@@ -1,0 +1,32 @@
+.transRec-tabs{
+	top:0px;
+}
+.transRec-data{
+	position: absolute;
+	top:48px;
+	bottom: 43px;
+	width: 100%;
+}
+.transRec-data .col{
+	text-align: center;
+}
+.transRecord-total{
+	position: absolute;
+    width: 100%;
+	bottom: 0px;
+	background-color: #5fbae7;
+    text-align: center;
+    height: 43px;
+}
+.transRecord-total a{
+	display: block;
+    padding-top: 9px;
+}
+.transRecord-total img{
+	width: 1.5rem;
+    vertical-align: bottom;
+}
+.transRecord-total span{
+	color: #ffffff;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,48 @@
+<ion-view view-title="交易记录">
+	<ion-nav-bar class="basicInfo-nav">
+      <ion-nav-buttons side="left" >
+		<button class="button button-icon ion-ios-arrow-back" ng-click="Exit()">
+		</button>
+		</ion-nav-buttons>
+		<ion-nav-buttons side="right" >
+		<button class="button button-clear" ng-click="Exit()">筛选
+		</button>
+		</ion-nav-buttons>
+    </ion-nav-bar>
+  <ion-content scroll=false>
+  		<div class="tabs transRec-tabs" ng-model="selectIndex">
+			<a class="tab-item" ng-class="{'active':selectIndex==0}" ng-click="ChangeShow(0)">还款期数</a>
+			<a class="tab-item" ng-class="{'active':selectIndex==1}" ng-click="ChangeShow(1)">本金</a>
+			<a class="tab-item" ng-class="{'active':selectIndex==2}" ng-click="ChangeShow(2)">利息</a>
+			<a class="tab-item" ng-class="{'active':selectIndex==2}" ng-click="ChangeShow(3)">日期</a>
+			<a class="tab-item" ng-class="{'active':selectIndex==2}" ng-click="ChangeShow(4)">状态</a>
+		</div>
+		<div class="list scroll transRec-data">
+			<div ng-repeat="data in datas" class="row row-wrap">
+				<div class="col col-20">
+					<img ng-src="img/transRecord/1.png" alt="分" />
+					<span>{{data.periods}}</span>
+				</div>
+				<div class="col col-20">
+					<span>{{data.principal}}</span>
+				</div>
+				<div class="col col-20">
+					<span>{{data.interest}}</span>
+				</div>
+				<div class="col col-20">
+					<span>{{data.date}}</span>
+					<span>{{data.time}}</span>
+				</div>
+				<div class="col col-20">
+					<span>{{data.status}}</span>
+				</div>
+			</div>
+		</div>
+		<div class="transRecord-total">
+				<a>
+					<img ng-src="img/loanAccount/total.png">
+					<span>账号交易总金额：¥ 1000万</span>
+				</a>
+			</div>
+  </ion-content>
+</ion-view>

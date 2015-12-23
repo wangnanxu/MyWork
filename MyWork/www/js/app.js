@@ -79,6 +79,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','P
     cache:'false',
     templateUrl: 'templates/identification.html',
     controller:'IdentificationCtrl'
+  })
+   .state('transactionRecord', {
+    url: '/transactionRecord',
+    cache:'false',
+    templateUrl: 'templates/transactionRecord.html',
+    controller:'TransactionRecordCtrl'
   });
 
   // if none of the above states are matched, use this as the fallback
