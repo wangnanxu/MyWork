@@ -4,7 +4,7 @@
 	描述：借款账户
 -->
 <ion-view>
-	<ion-content >
+	<ion-content>
 		<div class="loanAccount-head">
 			<img ng-src="img/loanAccount/headbg.png" class="bgimg" />
 			<div class="row row-wrap">
@@ -119,11 +119,15 @@
 					</div>
 				</div>
 			</div>
-			<div>
-				chart
+			<div class="loanAccount-chart">
+				<canvas id="doughnut" class="chart chart-doughnut" chart-data="datachart" chart-labels="labelschart">
+				</canvas>
 			</div>
-			<div>
-				过程
+			<div class="loanAccount-procmark">
+				<img ng-src="img/loanAccount/01.png" ng-if="true" />
+				<img ng-src="img/loanAccount/01.png" ng-if="false" />
+				<img ng-src="img/loanAccount/01.png" ng-if="false" />
+				<img ng-src="img/loanAccount/01.png" ng-if="false" />
 			</div>
 			<div class="loanAccount-imgbtn">
 				<div class="row row-wrap">
@@ -150,21 +154,36 @@
 						<img ng-src="img/loanAccount/totalhead.png" />
 					</a>
 				</div>
-				<ion-slide-box>
-					<ion-slide>
-						<div></div>
-					</ion-slide>
-					<ion-slide>
-						<div></div>
-					</ion-slide>
-					<ion-slide>
-						<div></div>
-					</ion-slide>
-					<ion-slide>
-						<div></div>
-					</ion-slide>
-					<ion-slide>
-						<div></div>
+				<div class="row row-wrap">
+					<a class="col col-20">标题</a>
+					<a class="col col-20">金额</a>
+					<a class="col col-20">利率</a>
+					<a class="col col-20">日期</a>
+					<a class="col col-20">操作</a>
+				</div>
+				<ion-slide-box class="loanAccount-box">
+					<ion-slide ng-repeat="list in lists">
+						<div ng-repeat="datas in list">
+							<div class="row row-wrap">
+								<div class="col col-20">
+									{{datas.title}}
+								</div>
+								<div class="col col-20">
+									<span>¥</span>
+									{{datas.money}}万
+								</div>
+								<div class="col col-20">
+									<span>¥</span>
+									{{datas.interest}}万
+								</div>
+								<div class="col col-20">
+									{{datas.date}}
+								</div>
+								<div class="col col-20">
+									<a><img ng-src="img/loanAccount/back.png"/></a>
+								</div>
+							</div>
+						</div>
 					</ion-slide>
 				</ion-slide-box>
 			</div>
