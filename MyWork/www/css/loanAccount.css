@@ -89,7 +89,7 @@
 .loanAccount-money .back span{
 	margin-left: 25px;
     line-height: 35px;
-    color: #0000ff;
+    color: #387ef5;
 }
 .loanAccount-money .noback{
 	 height: 40px;
@@ -111,7 +111,7 @@
     padding: 5px 0px;
 }
 .loanAccount-identify .statusimg{
-	width: 100%;
+	width: 4rem;
 }
 .loanAccount-identify .title{
 	display: block;

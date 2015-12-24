@@ -3,10 +3,10 @@
 	color:white;
 }
 .basicInfo-list-head{
-	border-bottom: 5px solid #999999;
+	border-bottom: 5px solid #cccccc;
 }
 .basicInfo-list-head span{
-	margin-top: 10px;
+	line-height: 76px;
 }
 .basicInfo-list-head img{
 	width: 5rem;

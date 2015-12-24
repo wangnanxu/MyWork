@@ -1,20 +1,60 @@
 .transRec-tabs{
 	top:0px;
+	background-color: #96D5F5;
+	color: #0E334E;
+	padding: 0px;
+	margin: 0px;
+}
+.transRec-tabs .col{
+	margin: 0px;
+	padding: 0px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+}
+.transRec-tabs a:active{
+	background-color:#088ED0;
+	color: #FFFFFF;
 }
 .transRec-data{
-	position: absolute;
-	top:48px;
-	bottom: 43px;
-	width: 100%;
+}
+.transRec-data .row{
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 1px solid #CCCCCC;
 }
 .transRec-data .col{
-	text-align: center;
+	margin: 0px;
+    padding: 0px;
+    text-align: center;
+    line-height: 38px;
+}
+.transRec-data span{
+    font-size: 0.8rem;
+    color: #999999;
+}
+.transRec-data .code{
+	color: #0191da;
+}
+.transRec-data .code img{
+	width: 20px;
+	vertical-align: middle;
+}
+.transRec-data .code span{
+	color: #0191da;
+}
+.transRec-data .time{
+	line-height: 20px;
+}
+.transRec-data .complete{
+	color: #0191da;
 }
 .transRecord-total{
 	position: absolute;
     width: 100%;
 	bottom: 0px;
-	background-color: #5fbae7;
+	background-color: #0191da;
     text-align: center;
     height: 43px;
 }
