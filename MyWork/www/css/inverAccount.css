@@ -28,10 +28,12 @@
 	text-align: center;
 }
 .inverAccount-chart .col img{
-		
+	width: 0.8rem;
+    vertical-align: middle;
 }
 .inverAccount-chart .col span{
-	
+	font-size: 0.5rem;
+	color: #3e3e3e;
 }
 .inverAccount-imgbtn{
 	
@@ -50,14 +52,15 @@
 }
 .inverAccount-imgbtn .first{
 	display: block;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    color: #3e3e3e;
 }
 .inverAccount-imgbtn .second{
-	font-size: 0.8rem;
+	font-size: 0.5rem;
 	color: #999999;
 }
 .inverAccount-imgbtn .third{
-	font-size: 0.8rem;
+	font-size: 0.5rem;
 	color: #EF473A;
 }
 .inverAccount-search{
@@ -90,9 +93,11 @@
 }
 .inverAccount-search img{
 	width: 2rem;
+	vertical-align: middle;
 }
 .inverAccount-search span{
-	    display: block;
+	display: block;
+    line-height: 17px;
 }
 .inverAccount-search .button.button-full{
 	margin-top: 0px;
@@ -125,5 +130,9 @@
 }
 .inverAccount-box .precent{
 	color:#E42112;
+}
+.inverAccount-box .btn img{
+	width: 3.5rem;
+    vertical-align: middle;
 }
 

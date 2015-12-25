@@ -23,7 +23,7 @@
 					<div ng-repeat="datas in list">
 						<div class="row row-wrap">
 							<div class="col col-20 code">
-								<img ng-src="img/transRecord/asd.png" alt="" />
+								<img ng-src="image/transRecord/asd.png" alt="" />
 								<span>{{datas.periods}}</span>
 							</div>
 							<div class="col col-20">
@@ -46,13 +46,13 @@
 			</ion-slide-box>
 			<div class="transRecord-total">
 				<a>
-					<img ng-src="img/loanAccount/total.png">
+					<img ng-src="image/loanAccount/total.png">
 					<span>账号交易总金额：¥ 1000万</span>
 				</a>
 			</div>
 		</div>
-		<div ng-if="hasValue==false">
-			<img ng-src="img/transRecord/asd.png" />
+		<div ng-if="hasValue==false" class="transRecord-nodata">
+			<img ng-src="image/transRecord/nodata.png" />
 		</div>
 	</ion-content>
 </ion-view>

@@ -31,7 +31,7 @@
     line-height: 38px;
 }
 .transRec-data span{
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     color: #999999;
 }
 .transRec-data .code{
@@ -46,6 +46,9 @@
 }
 .transRec-data .time{
 	line-height: 20px;
+}
+.transRec-data .time span{
+	display: block;
 }
 .transRec-data .complete{
 	color: #0191da;
@@ -69,4 +72,7 @@
 .transRecord-total span{
 	color: #ffffff;
     font-size: 1.1rem;
+}
+.transRecord-nodata img{
+	width:100%;
 }

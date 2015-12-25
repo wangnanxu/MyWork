@@ -89,7 +89,7 @@
 .loanAccount-money .back span{
 	margin-left: 25px;
     line-height: 35px;
-    color: #387ef5;
+    color: #0391db;
 }
 .loanAccount-money .noback{
 	 height: 40px;
@@ -111,13 +111,13 @@
     padding: 5px 0px;
 }
 .loanAccount-identify .statusimg{
-	width: 4rem;
+	width: 100%;
 }
 .loanAccount-identify .title{
 	display: block;
     font-size: 0.7rem;
     font-weight: 700;
-    color: #333333;
+    color: #3e3e3e;
 }
 .loanAccount-identify .title span{
 	color: #999999;
@@ -161,7 +161,7 @@
 }
 .loanAccount-btn img{
 	display: block;
-    width: 5rem;
+    width: 4rem;
     margin: 0 auto;
 }
 .loanAccount-btn span{
@@ -210,11 +210,15 @@
 	width: 2rem;
     vertical-align:bottom;
 }
+.loanAccount-state .boxtitle{
+	background-color: #eeeeee;
+}
 .loanAccount-state .row a{
 	text-align: center;
 }
 .loanAccount-box{
 	text-align: center;
+	font-size: 0.5rem;
 }
 .loanAccount-box img{
 	width: 100%;

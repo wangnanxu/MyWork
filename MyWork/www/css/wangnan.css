@@ -1,0 +1,548 @@
+.loanAccount-head{
+	
+}
+.loanAccount-head .bgimg{
+	position: absolute;
+    width: 100%;
+    height: 120px;
+    z-index: -1;
+}
+.loanAccount-head .first{
+	
+}
+.loanAccount-head .first img{
+	width: 2rem;
+}
+.loanAccount-head .second{
+	text-align: center;
+}
+.loanAccount-head .second img{
+	width: 5rem;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.loanAccount-head .second span{
+	display: block;
+    margin: 0 auto;
+    color: #ffffff;
+}
+.loanAccount-head .third{
+	text-align: right;
+}
+.loanAccount-head .third span{
+	color: #ffffff;
+    font-size: 0.8rem;
+}
+.loanAccount-process{
+	padding: 0px;
+}
+.loanAccount-process .col{
+	display: block;
+    padding: 5px 0px 2px 0px;
+    width: 100%;
+}
+.loanAccount-process .colborder{
+	padding-right:2px ;
+}
+.loanAccount-process a{
+	background-color:#5fbae7;
+	color:#FFFFFF;
+}
+.loanAccount-process a:hover{
+	background-color: #b3e5ff;
+	color:#FFFFFF;
+}
+.loanAccount-process .button-full{
+	margin-top: 2px;
+    margin-bottom: 2px;
+}
+.loanAccount-process img{
+	width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.loanAccount-total{
+	background-color: #5fbae7;
+    text-align: center;
+    height: 43px;
+}
+.loanAccount-total a{
+	display: block;
+    padding-top: 9px;
+}
+.loanAccount-total img{
+	width: 1.5rem;
+    vertical-align: bottom;
+}
+.loanAccount-total span{
+	color: #ffffff;
+    font-size: 1.1rem;
+}
+.loanAccount-money{
+	border-bottom: 8px solid #5fbae7;
+}
+.loanAccount-money .back{
+	height: 40px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.loanAccount-money .back span{
+	margin-left: 25px;
+    line-height: 35px;
+    color: #0391db;
+}
+.loanAccount-money .noback{
+	 height: 40px;
+}
+.loanAccount-money .noback span{
+	margin-left: 25px;
+    line-height: 35px;
+    color:#EF473A;
+}
+.loanAccount-identify{
+	padding: 0px;
+}
+.loanAccount-identify .row{
+	margin: 0px;
+    padding: 0px;
+}
+.loanAccount-identify .col{
+	margin: 0px;
+    padding: 5px 0px;
+}
+.loanAccount-identify .statusimg{
+	width: 100%;
+}
+.loanAccount-identify .title{
+	display: block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #3e3e3e;
+}
+.loanAccount-identify .title span{
+	color: #999999;
+    font-size: 0.5rem;
+	}
+.loanAccount-identify .statusspan{
+	font-size: 0.5rem;
+	color: #666666;
+}
+.loanAccount-identify .btn{
+	padding-left: 10px;
+    font-size: 0.5rem;
+}
+.loanAccount-identify .status {
+	width: 0.8rem;
+	vertical-align: middle;
+}
+.loanAccount-identify .content{
+	color: #5fbae7;
+    font-size: 0.5rem;
+    margin-left: 10px;
+}
+.loanAccount-identify .identifybtn{
+	width: 100%;
+}
+.loanAccount-identify .identifybtn a{
+	background-color: #5fbae7;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+}
+.loanAccount-identify .identifybtn .button-full {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.loanAccount-identify .identifybtn img {
+    width: 2rem;
+    vertical-align: middle;
+}
+.loanAccount-btn{
+	    text-align: center;
+}
+.loanAccount-btn img{
+	display: block;
+    width: 4rem;
+    margin: 0 auto;
+}
+.loanAccount-btn span{
+    font-size: 0.8rem;
+    color: #999999;
+}
+.loanAccount-chart{
+	width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.loanAccount-chart div{
+}
+.loanAccount-chart span{
+	line-height: 120px;
+}
+.loanAccount-procmark{
+	
+}
+.loanAccount-procmark img{
+	width: 100%;
+}
+.loanAccount-imgbtn{
+	
+}
+.loanAccount-imgbtn img{
+	width: 100%;
+}
+.loanAccount-state{
+	
+}
+.loanAccount-state .title{
+	background-color: #5fbae7;
+    text-align: center;
+    height: 43px;
+}
+.loanAccount-state .title a{
+	display: block;
+    padding-top: 9px;
+}
+.loanAccount-state .title span{
+	color: #ffffff;
+    font-size: 1.1rem;
+}
+.loanAccount-state .title img{
+	width: 2rem;
+    vertical-align:bottom;
+}
+.loanAccount-state .boxtitle{
+	background-color: #eeeeee;
+}
+.loanAccount-state .row a{
+	text-align: center;
+}
+.loanAccount-box{
+	text-align: center;
+	font-size: 0.5rem;
+}
+.loanAccount-box img{
+	width: 100%;
+    vertical-align: middle;
+}
+.inverAccount-chart{
+	
+}
+.inverAccount-chart .title{
+	background-color: #5fbae7;
+    text-align: center;
+    height: 43px;
+}
+.inverAccount-chart .title a{
+	display: block;
+    padding-top: 9px;
+}
+.inverAccount-chart .title span{
+	color: #ffffff;
+    font-size: 1.1rem;
+}
+.inverAccount-chart .title img{
+	width: 2rem;
+    vertical-align:bottom;
+}
+.inverAccount-chart .row{
+	margin: 0px;
+	padding: 0px;
+}
+.inverAccount-chart .col{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.inverAccount-chart .col img{
+	width: 0.8rem;
+    vertical-align: middle;
+}
+.inverAccount-chart .col span{
+	font-size: 0.5rem;
+	color: #3e3e3e;
+}
+.inverAccount-imgbtn{
+	
+}
+.inverAccount-imgbtn .row{
+	margin: 0px;
+	padding: 0px;
+}
+.inverAccount-imgbtn .col{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.inverAccount-imgbtn img{
+	width: 3rem;
+}
+.inverAccount-imgbtn .first{
+	display: block;
+    font-size: 0.7rem;
+    color: #3e3e3e;
+}
+.inverAccount-imgbtn .second{
+	font-size: 0.5rem;
+	color: #999999;
+}
+.inverAccount-imgbtn .third{
+	font-size: 0.5rem;
+	color: #EF473A;
+}
+.inverAccount-search{
+	border-top: 15px solid #cccccc;
+    border-bottom: 15px solid #cccccc;
+}
+.inverAccount-search .row{
+	margin: 0px;
+	padding: 0px;
+}
+.inverAccount-search .col{
+	margin: 0px;
+	padding: 0px;
+}
+.inverAccount-search .col-33{
+	text-align: right;
+}
+.inverAccount-search .col-67{
+	text-align: left;
+}
+.inverAccount-search a{
+	background-color: #5fbae7;
+	color:#FFFFFF;
+	line-height: 14px;
+	border: 1px solid #5fbae7;
+}
+.inverAccount-search a:hover{
+	background-color: #b3e5ff;
+	color:#999999;
+}
+.inverAccount-search img{
+	width: 2rem;
+	vertical-align: middle;
+}
+.inverAccount-search span{
+	display: block;
+    line-height: 17px;
+}
+.inverAccount-search .button.button-full{
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+.inverAccount-box{
+	
+}
+.inverAccount-box .row{
+	margin: 0px;
+    padding: 0px;
+}
+.inverAccount-box .col{
+	text-align: center;
+	margin: 0px;
+    padding: 0px;
+}
+.inverAccount-box .col{
+	font-size: 0.5rem;
+    height: 30px;
+    line-height: 30px;
+}
+.inverAccount-box .boxtitle{
+	background-color: #cccccc;
+    height: 30px;
+    line-height: 30px;
+}
+.inverAccount-box .name{
+	color: #387ef5;
+}
+.inverAccount-box .precent{
+	color:#E42112;
+}
+.inverAccount-box .btn img{
+	width: 3.5rem;
+    vertical-align: middle;
+}
+.transRec-tabs{
+	top:0px;
+	background-color: #96D5F5;
+	color: #0E334E;
+	padding: 0px;
+	margin: 0px;
+}
+.transRec-tabs .col{
+	margin: 0px;
+	padding: 0px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+}
+.transRec-tabs a:active{
+	background-color:#088ED0;
+	color: #FFFFFF;
+}
+.transRec-data{
+}
+.transRec-data .row{
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.transRec-data .col{
+	margin: 0px;
+    padding: 0px;
+    text-align: center;
+    line-height: 38px;
+}
+.transRec-data span{
+    font-size: 0.6rem;
+    color: #999999;
+}
+.transRec-data .code{
+	color: #0191da;
+}
+.transRec-data .code img{
+	width: 20px;
+	vertical-align: middle;
+}
+.transRec-data .code span{
+	color: #0191da;
+}
+.transRec-data .time{
+	line-height: 20px;
+}
+.transRec-data .time span{
+	display: block;
+}
+.transRec-data .complete{
+	color: #0191da;
+}
+.transRecord-total{
+	position: absolute;
+    width: 100%;
+	bottom: 0px;
+	background-color: #0191da;
+    text-align: center;
+    height: 43px;
+}
+.transRecord-total a{
+	display: block;
+    padding-top: 9px;
+}
+.transRecord-total img{
+	width: 1.5rem;
+    vertical-align: bottom;
+}
+.transRecord-total span{
+	color: #ffffff;
+    font-size: 1.1rem;
+}
+.transRecord-nodata img{
+	width:100%;
+}
+.basicInfo-nav{
+	background-color: #0191da;
+	color:white;
+}
+.basicInfo-list-head{
+	border-bottom: 5px solid #cccccc;
+}
+.basicInfo-list-head span{
+	line-height: 76px;
+}
+.basicInfo-list-head img{
+	width: 5rem;
+	vertical-align: middle;
+}
+.basicInfo-btn{
+	 margin: 0 10%;
+}
+.identify-title{
+	border-bottom: 5px solid #999999;
+}
+.identify-title img{
+	width: 100%;
+}
+.identify-list-div{
+	
+}
+.identify-list-div img{
+	width: 32px;
+    height: 32px;
+}
+.identify-list-div .second img{
+	width: 1rem;
+    height: 1rem;
+}
+.identify-list-div span{
+	font-size: 0.8rem;
+    float: left;
+    margin: 7px 0 0 0;
+}
+.identify-list-div input{
+	font-size: 0.6rem;
+    float: left;
+}
+.identify-list-div-confirm{
+	background-color: #28A54C;
+}
+.identify-list-div-wrong{
+	background-color: red;
+}
+.identify-list-a{
+	text-align: center;
+	border-top: 5px solid #999999;
+}
+.identify-list-a img{
+	width:3rem;
+	display: block;
+	margin: 0 auto;
+}
+.identify-list-a .first{
+	display: block;
+    margin: 0 auto;
+    font-weight: bold;
+    opacity: 0.6;
+}
+.identify-list-a .second{
+	display: block;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    opacity: 0.4;
+}
+.basicInfo-btn{
+	margin: 0 3%;
+}
+.basicInfo-btn img{
+	width:100%;
+}
+.inverAccount-container {
+	max-width: 360px;
+	margin: 0px auto;
+}
+
+.chart-wrapper {
+	background: #fff;
+	padding: 0px 5px 10px 5px;
+	max-width: 360px;
+	margin: 0px auto 0px auto;
+	box-sizing: border-box;
+	/*overflow: auto;
+	overflow-scrolling: touch;
+	-webkit-overflow-scrolling: touch;*/
+}
+
+.chart-wrapper canvas {
+	min-width: 274px;
+	height: 274px;
+}
+.chart-doughunt{
+	background: #fff;
+	padding: 5px;
+	max-width: 200px;
+	margin: 0px auto 0px auto;
+	box-sizing: border-box;
+}
+.chart-doughunt canvas {
+	min-width: 100px;
+	height: 100px;
+}
